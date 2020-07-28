@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello! :wave:
 
 <!--
 **gabe565/gabe565** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+I'm Gabe. I like to break and fix things, usually using code. I'm a DevOps engineer at [@clevyr](https://github.com/clevyr).
+
+For more of my stuff, check out [gabecook.com](https://gabecook.com) (I tried to find a trendy domain for that site, but the closest I got was [gabe.cooking](https://gabe.cooking)).
