@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 I'm Gabe. I like to break and fix things, usually using code. I'm a DevOps engineer at [@clevyr](https://github.com/clevyr).
 
-For more of my stuff, check out [gabecook.com](https://gabecook.com) (I tried to find a trendy domain for that site, but the closest I got was [gabe.cooking](https://gabe.cooking)).
+For more of my stuff, check out [gabecook.com](https://gabecook.com).
