@@ -4,7 +4,7 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 
 :sparkles: [See my portfolio site at gabecook.com](https://gabecook.com) :sparkles:
 
-#### Bio
+### Bio
 
 - :gear: I love to code in Golang, Vue, Laravel, Python, sql, and [many more](https://gabecook.com/skills).
 - :cloud: I build and deploy with containers, CI/CD, Kubernetes, and GitOps.
@@ -12,7 +12,7 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 - :bison: Volunteering with [Techlahoma](https://techlahoma.org).
 - [:ring: I recently got married!](https://livandgabe.wedding)
 
-#### Projects
+### Projects
 
 **Bigger projects**
 
