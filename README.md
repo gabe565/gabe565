@@ -31,5 +31,7 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 - [:milky_way: ASCII Telnet](https://github.com/gabe565/ascii-telnet-go): Star Wars telnet server written in Go.
 - [:signal_strength: pyruckus](https://github.com/gabe565/pyruckus): Python client for Ruckus Unleashed routers.
 
+### Stats
+
 | [![Gabe Cook's GitHub stats](https://github-readme-stats.vercel.app/api?username=gabe565&show_icons=true&theme=transparent&hide_border=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats) | [![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs?username=gabe565&theme=transparent&hide_border=true&layout=compact)](https://github.com/anuraghazra/github-readme-stats) |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
