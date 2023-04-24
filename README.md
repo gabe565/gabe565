@@ -28,7 +28,7 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 - [:bell: Domain Watch](https://github.com/gabe565/domain-watch): Watch whois reports and notify when statuses change or expiration is incoming.
 - [:newspaper: Transsmute](https://github.com/gabe565/transsmute): Build RSS feeds for websites that don't provide them.
 - [:floppy_disk: ESPHome configs](https://github.com/gabe565/esphome-configs): A collection of my personal ESPHome configs and packages.
-- [:milky_way: ASCII Telnet](https://github.com/gabe565/ascii-telnet-go): Star Wars telnet server written in Go.
+- [:milky_way: ASCII Movie](https://github.com/gabe565/ascii-movie): Star Wars SSH + Telnet server written in Go.
 - [:signal_strength: pyruckus](https://github.com/gabe565/pyruckus): Python client for Ruckus Unleashed routers.
 
 ### Stats
