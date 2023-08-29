@@ -16,6 +16,7 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 
 **Bigger projects**
 
+- [:fast_forward: CastSponsorSkip](https://github.com/gabe565/CastSponsorSkip): Skip YouTube ads and sponsorships on all local Google Cast devices.
 - [:1234: Mnemonic Ninja](https://mnemonic.ninja): Convert between a number and its corresponding word to aid in memorization.
 - [:octocat: gh-profile](https://github.com/gabe565/gh-profile): Work with multiple GitHub accounts using the gh cli.
 - [:wheel_of_dharma: Helm Charts](https://github.com/gabe565/charts): A collection of Helm charts, based on the bjw-s common library chart.
