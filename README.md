@@ -10,7 +10,6 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 - :cloud: I build and deploy with containers, CI/CD, Kubernetes, and GitOps.
 - :office: Working at [Clevyr](https://clevyr.com).
 - :bison: Volunteering with [Techlahoma](https://techlahoma.org).
-- [:ring: I recently got married!](https://livandgabe.wedding)
 
 ### Projects
 
