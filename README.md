@@ -9,7 +9,6 @@ I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, U
 - :gear: I love to code in Golang, Vue, Laravel, Python, sql, and [many more](https://gabecook.com/skills).
 - :cloud: I build and deploy with containers, CI/CD, Kubernetes, and GitOps.
 - :office: Working at [Clevyr](https://clevyr.com).
-- :bison: Volunteering with [Techlahoma](https://techlahoma.org).
 
 ### Projects
 
