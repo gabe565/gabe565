@@ -3,8 +3,11 @@ package main
 import (
 	"bytes"
 	_ "embed"
+	"html"
 	"html/template"
 	"os"
+	"strconv"
+	"strings"
 
 	"github.com/goccy/go-yaml"
 )
@@ -30,7 +33,40 @@ type Link struct {
 	Name        string `yaml:"name"`
 	URL         string `yaml:"url"`
 	Description string `yaml:"description"`
+	Logo        *Logo  `yaml:"logo"`
 	Emoji       string `yaml:"emoji"`
+}
+
+type Logo struct {
+	URL    string `yaml:"url"`
+	Width  int    `yaml:"width"`
+	Height int    `yaml:"height"`
+}
+
+func (l Link) Icon() any {
+	switch {
+	case l.Logo != nil:
+		var buf strings.Builder
+		buf.WriteString(`<img src="` + html.EscapeString(l.Logo.URL) + `"`)
+		buf.WriteString(` alt="` + html.EscapeString(l.Name) + ` icon"`)
+
+		if l.Logo.Width == 0 && l.Logo.Height == 0 {
+			l.Logo.Height = 16
+		}
+		if l.Logo.Width != 0 {
+			buf.WriteString(` width=` + strconv.Itoa(l.Logo.Width) + `px`)
+		}
+		if l.Logo.Height != 0 {
+			buf.WriteString(` height=` + strconv.Itoa(l.Logo.Height) + `px`)
+		}
+
+		buf.WriteByte('>')
+		return template.HTML(buf.String())
+	case l.Emoji != "":
+		return ":" + l.Emoji + ":"
+	default:
+		return ""
+	}
 }
 
 func main() {

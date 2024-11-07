@@ -4,7 +4,7 @@
 <table>
 {{- range .Links }}
   <tr>
-    <td align=center>{{ with .Emoji }}:{{ . }}:{{ end }}</td>
+    <td align=center>{{ .Icon }}</td>
     <td><a href="{{ .URL }}">{{ .Name }}</a></td>
     <td>{{ .Description }}</td>
   </tr>

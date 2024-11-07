@@ -13,32 +13,32 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
 
 <table>
   <tr>
-    <td align=center>:fast_forward:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/gabe565/CastSponsorSkip/0c8c4d4f/assets/icon.svg" alt="CastSponsorSkip icon" height=16px></td>
     <td><a href="https://github.com/gabe565/CastSponsorSkip">CastSponsorSkip</a></td>
     <td>Skip YouTube ads and sponsorships on all local Google Cast devices.</td>
   </tr>
   <tr>
-    <td align=center>:1234:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/gabe565/mnemonic-ninja/465602c/src/assets/logo.svg" alt="Mnemonic Ninja icon" height=16px></td>
     <td><a href="https://mnemonic.ninja">Mnemonic Ninja</a></td>
     <td>Convert between a number and its corresponding word to aid in memorization.</td>
   </tr>
   <tr>
-    <td align=center>:page_facing_up:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/clevyr/yampl/97430d4/assets/icon.svg" alt="Yampl icon" height=15px></td>
     <td><a href="https://github.com/clevyr/yampl">Yampl</a></td>
     <td>Yaml templating via line-comments.</td>
   </tr>
   <tr>
-    <td align=center>:card_file_box:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/clevyr/kubedb/4f4b671/assets/icon.svg" alt="KubeDB icon" height=16px></td>
     <td><a href="https://github.com/clevyr/kubedb">KubeDB</a></td>
     <td>Painlessly work with Kubernetes databases.</td>
   </tr>
   <tr>
-    <td align=center>:milky_way:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/gabe565/ascii-movie/200b3d6/assets/icon.svg" alt="ASCII Movie icon" height=16px></td>
     <td><a href="https://github.com/gabe565/ascii-movie">ASCII Movie</a></td>
     <td>Star Wars SSH &#43; Telnet server written in Go.</td>
   </tr>
   <tr>
-    <td align=center>:joystick:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/gabe565/gones/5269100/assets/icon.svg" alt="GoNES icon" height=16px></td>
     <td><a href="https://github.com/gabe565/gones">GoNES</a></td>
     <td>An NES emulator written in Go.</td>
   </tr>
@@ -48,12 +48,12 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
 
 <table>
   <tr>
-    <td align=center>:newspaper:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/gabe565/transsmute/4058f3a/assets/icon.svg" alt="Transsmute icon" height=16px></td>
     <td><a href="https://github.com/gabe565/transsmute">Transsmute</a></td>
     <td>Build RSS feeds for websites that don&#39;t provide them.</td>
   </tr>
   <tr>
-    <td align=center>:floppy_disk:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/esphome/esphome-docs/0191785/images/logo.svg" alt="ESPHome configs icon" height=16px></td>
     <td><a href="https://github.com/gabe565/esphome-configs">ESPHome configs</a></td>
     <td>A collection of my personal ESPHome configs and packages.</td>
   </tr>
@@ -78,7 +78,7 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
     <td>Display live blood sugar data from Nightscout in your system menu bar.</td>
   </tr>
   <tr>
-    <td align=center>:bell:</td>
+    <td align=center><img src="https://raw.githubusercontent.com/gabe565/domain-watch/349d6ef/assets/icon.svg" alt="Domain Watch icon" height=16px></td>
     <td><a href="https://github.com/gabe565/domain-watch">Domain Watch</a></td>
     <td>Watch whois reports and notify when statuses change or expiration is incoming.</td>
   </tr>

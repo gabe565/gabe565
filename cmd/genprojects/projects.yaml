@@ -3,44 +3,53 @@
     - name: CastSponsorSkip
       url: https://github.com/gabe565/CastSponsorSkip
       description: Skip YouTube ads and sponsorships on all local Google Cast devices.
-      emoji: fast_forward
+      logo:
+        url: https://raw.githubusercontent.com/gabe565/CastSponsorSkip/0c8c4d4f/assets/icon.svg
 
     - name: Mnemonic Ninja
       url: https://mnemonic.ninja
       description: Convert between a number and its corresponding word to aid in memorization.
-      emoji: 1234
+      logo:
+        url: https://raw.githubusercontent.com/gabe565/mnemonic-ninja/465602c/src/assets/logo.svg
 
     - name: Yampl
       url: https://github.com/clevyr/yampl
       description: Yaml templating via line-comments.
-      emoji: page_facing_up
+      logo:
+        url: https://raw.githubusercontent.com/clevyr/yampl/97430d4/assets/icon.svg
+        height: 15
 
     - name: KubeDB
       url: https://github.com/clevyr/kubedb
       description: Painlessly work with Kubernetes databases.
-      emoji: card_file_box
+      logo:
+        url: https://raw.githubusercontent.com/clevyr/kubedb/4f4b671/assets/icon.svg
 
     - name: ASCII Movie
       url: https://github.com/gabe565/ascii-movie
       description: Star Wars SSH + Telnet server written in Go.
-      emoji: milky_way
+      logo:
+        url: https://raw.githubusercontent.com/gabe565/ascii-movie/200b3d6/assets/icon.svg
 
     - name: GoNES
       url: https://github.com/gabe565/gones
       description: An NES emulator written in Go.
-      emoji: joystick
+      logo:
+        url: https://raw.githubusercontent.com/gabe565/gones/5269100/assets/icon.svg
 
 - name: Smaller Projects
   links:
     - name: Transsmute
       url: https://github.com/gabe565/transsmute
       description: Build RSS feeds for websites that don't provide them.
-      emoji: newspaper
+      logo:
+        url: https://raw.githubusercontent.com/gabe565/transsmute/4058f3a/assets/icon.svg
 
     - name: ESPHome configs
       url: https://github.com/gabe565/esphome-configs
       description: A collection of my personal ESPHome configs and packages.
-      emoji: floppy_disk
+      logo:
+        url: https://raw.githubusercontent.com/esphome/esphome-docs/0191785/images/logo.svg
 
     - name: pwgen-go
       url: https://github.com/gabe565/pwgen-go
@@ -65,4 +74,5 @@
     - name: Domain Watch
       url: https://github.com/gabe565/domain-watch
       description: Watch whois reports and notify when statuses change or expiration is incoming.
-      emoji: bell
+      logo:
+        url: https://raw.githubusercontent.com/gabe565/domain-watch/349d6ef/assets/icon.svg
