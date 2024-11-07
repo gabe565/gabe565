@@ -9,8 +9,6 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
 ### Projects
 
 <!-- Begin projects -->
-**Bigger Projects**
-
 <table>
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/CastSponsorSkip/0c8c4d4f/assets/icon.svg" alt="CastSponsorSkip icon" height=16px></td>
@@ -42,11 +40,6 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
     <td><a href="https://github.com/gabe565/gones">GoNES</a></td>
     <td>An NES emulator written in Go.</td>
   </tr>
-</table>
-
-**Smaller Projects**
-
-<table>
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/transsmute/4058f3a/assets/icon.svg" alt="Transsmute icon" height=16px></td>
     <td><a href="https://github.com/gabe565/transsmute">Transsmute</a></td>

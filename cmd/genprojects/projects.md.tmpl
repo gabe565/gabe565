@@ -1,8 +1,5 @@
-{{- range . }}
-**{{ .Name }}**
-
 <table>
-{{- range .Links }}
+{{- range . }}
   <tr>
     <td align=center>{{ .Icon }}</td>
     <td><a href="{{ .URL }}">{{ .Name }}</a></td>
@@ -10,4 +7,3 @@
   </tr>
 {{- end }}
 </table>
-{{ end }}

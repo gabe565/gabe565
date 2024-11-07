@@ -24,11 +24,6 @@ var configFile []byte
 //go:embed projects.md.tmpl
 var templateFile string
 
-type Section struct {
-	Name  string `yaml:"name"`
-	Links []Link `yaml:"links"`
-}
-
 type Link struct {
 	Name        string `yaml:"name"`
 	URL         string `yaml:"url"`
@@ -70,8 +65,8 @@ func (l Link) Icon() any {
 }
 
 func main() {
-	var sections []Section
-	if err := yaml.Unmarshal(configFile, &sections); err != nil {
+	var links []Link
+	if err := yaml.Unmarshal(configFile, &links); err != nil {
 		panic(err)
 	}
 
@@ -82,7 +77,7 @@ func main() {
 
 	var buf bytes.Buffer
 	buf.Grow(len(templateFile))
-	if err := tmpl.Execute(&buf, sections); err != nil {
+	if err := tmpl.Execute(&buf, links); err != nil {
 		panic(err)
 	}
 

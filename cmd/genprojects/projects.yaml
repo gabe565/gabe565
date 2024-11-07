@@ -1,78 +1,74 @@
-- name: Bigger Projects
-  links:
-    - name: CastSponsorSkip
-      url: https://github.com/gabe565/CastSponsorSkip
-      description: Skip YouTube ads and sponsorships on all local Google Cast devices.
-      logo:
-        url: https://raw.githubusercontent.com/gabe565/CastSponsorSkip/0c8c4d4f/assets/icon.svg
+- name: CastSponsorSkip
+  url: https://github.com/gabe565/CastSponsorSkip
+  description: Skip YouTube ads and sponsorships on all local Google Cast devices.
+  logo:
+    url: https://raw.githubusercontent.com/gabe565/CastSponsorSkip/0c8c4d4f/assets/icon.svg
 
-    - name: Mnemonic Ninja
-      url: https://mnemonic.ninja
-      description: Convert between a number and its corresponding word to aid in memorization.
-      logo:
-        url: https://raw.githubusercontent.com/gabe565/mnemonic-ninja/465602c/src/assets/logo.svg
+- name: Mnemonic Ninja
+  url: https://mnemonic.ninja
+  description: Convert between a number and its corresponding word to aid in memorization.
+  logo:
+    url: https://raw.githubusercontent.com/gabe565/mnemonic-ninja/465602c/src/assets/logo.svg
 
-    - name: Yampl
-      url: https://github.com/clevyr/yampl
-      description: Yaml templating via line-comments.
-      logo:
-        url: https://raw.githubusercontent.com/clevyr/yampl/97430d4/assets/icon.svg
-        height: 15
+- name: Yampl
+  url: https://github.com/clevyr/yampl
+  description: Yaml templating via line-comments.
+  logo:
+    url: https://raw.githubusercontent.com/clevyr/yampl/97430d4/assets/icon.svg
+    height: 15
 
-    - name: KubeDB
-      url: https://github.com/clevyr/kubedb
-      description: Painlessly work with Kubernetes databases.
-      logo:
-        url: https://raw.githubusercontent.com/clevyr/kubedb/4f4b671/assets/icon.svg
+- name: KubeDB
+  url: https://github.com/clevyr/kubedb
+  description: Painlessly work with Kubernetes databases.
+  logo:
+    url: https://raw.githubusercontent.com/clevyr/kubedb/4f4b671/assets/icon.svg
 
-    - name: ASCII Movie
-      url: https://github.com/gabe565/ascii-movie
-      description: Star Wars SSH + Telnet server written in Go.
-      logo:
-        url: https://raw.githubusercontent.com/gabe565/ascii-movie/200b3d6/assets/icon.svg
+- name: ASCII Movie
+  url: https://github.com/gabe565/ascii-movie
+  description: Star Wars SSH + Telnet server written in Go.
+  logo:
+    url: https://raw.githubusercontent.com/gabe565/ascii-movie/200b3d6/assets/icon.svg
 
-    - name: GoNES
-      url: https://github.com/gabe565/gones
-      description: An NES emulator written in Go.
-      logo:
-        url: https://raw.githubusercontent.com/gabe565/gones/5269100/assets/icon.svg
+- name: GoNES
+  url: https://github.com/gabe565/gones
+  description: An NES emulator written in Go.
+  logo:
+    url: https://raw.githubusercontent.com/gabe565/gones/5269100/assets/icon.svg
 
-- name: Smaller Projects
-  links:
-    - name: Transsmute
-      url: https://github.com/gabe565/transsmute
-      description: Build RSS feeds for websites that don't provide them.
-      logo:
-        url: https://raw.githubusercontent.com/gabe565/transsmute/4058f3a/assets/icon.svg
+- name: Transsmute
+  url: https://github.com/gabe565/transsmute
+  description: Build RSS feeds for websites that don't provide them.
+  logo:
+    url: https://raw.githubusercontent.com/gabe565/transsmute/4058f3a/assets/icon.svg
 
-    - name: ESPHome configs
-      url: https://github.com/gabe565/esphome-configs
-      description: A collection of my personal ESPHome configs and packages.
-      logo:
-        url: https://raw.githubusercontent.com/esphome/esphome-docs/0191785/images/logo.svg
+- name: ESPHome configs
+  url: https://github.com/gabe565/esphome-configs
+  description: A collection of my personal ESPHome configs and packages.
+  logo:
+    url: https://raw.githubusercontent.com/esphome/esphome-docs/0191785/images/logo.svg
 
-    - name: pwgen-go
-      url: https://github.com/gabe565/pwgen-go
-      description: A configurable command-line password generator.
-      emoji: key
+- name: pwgen-go
+  url: https://github.com/gabe565/pwgen-go
+  description: A configurable command-line password generator.
+  emoji: key
 
-    - name: moreutils-go
-      url: https://github.com/gabe565/moreutils-go
-      description: A rewrite of the popular moreutils package in Go.
-      emoji: wrench
+- name: moreutils-go
+  url: https://github.com/gabe565/moreutils-go
+  description: A rewrite of the popular moreutils package in Go.
+  emoji: wrench
 
-    - name: Changelog Generator
-      url: https://github.com/gabe565/changelog-generator
-      description: Generates a changelog from commits since the previous release.
-      emoji: page_with_curl
+- name: Changelog Generator
+  url: https://github.com/gabe565/changelog-generator
+  description: Generates a changelog from commits since the previous release.
+  emoji: page_with_curl
 
-    - name: Nightscout Menu Bar
-      url: https://github.com/gabe565/nightscout-menu-bar
-      description: Display live blood sugar data from Nightscout in your system menu bar.
-      emoji: drop_of_blood
+- name: Nightscout Menu Bar
+  url: https://github.com/gabe565/nightscout-menu-bar
+  description: Display live blood sugar data from Nightscout in your system menu bar.
+  emoji: drop_of_blood
 
-    - name: Domain Watch
-      url: https://github.com/gabe565/domain-watch
-      description: Watch whois reports and notify when statuses change or expiration is incoming.
-      logo:
-        url: https://raw.githubusercontent.com/gabe565/domain-watch/349d6ef/assets/icon.svg
+- name: Domain Watch
+  url: https://github.com/gabe565/domain-watch
+  description: Watch whois reports and notify when statuses change or expiration is incoming.
+  logo:
+    url: https://raw.githubusercontent.com/gabe565/domain-watch/349d6ef/assets/icon.svg
