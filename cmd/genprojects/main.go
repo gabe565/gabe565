@@ -3,13 +3,25 @@ package main
 import (
 	"bytes"
 	_ "embed"
+	"encoding/json"
+	"errors"
+	"flag"
+	"fmt"
 	"html"
 	"html/template"
+	"io"
+	"net/http"
+	"net/url"
 	"os"
+	"path"
+	"path/filepath"
 	"strconv"
 	"strings"
+	"time"
 
+	"github.com/forPelevin/gomoji"
 	"github.com/goccy/go-yaml"
+	"golang.org/x/sync/errgroup"
 )
 
 const (
@@ -24,12 +36,85 @@ var configFile []byte
 //go:embed projects.md.tmpl
 var templateFile string
 
+var (
+	githubToken         string
+	githubCacheDuration time.Duration
+)
+
 type Link struct {
 	Name        string `yaml:"name"`
 	URL         string `yaml:"url"`
+	Source      string `yaml:"source"`
 	Description string `yaml:"description"`
 	Logo        *Logo  `yaml:"logo"`
 	Emoji       string `yaml:"emoji"`
+}
+
+var ErrUpstream = errors.New("upstream returned an error")
+
+func (l *Link) FetchGitHubDescription() error {
+	repoUrl := l.Source
+	if repoUrl == "" {
+		repoUrl = l.URL
+	}
+	if !strings.HasPrefix(repoUrl, "https://github.com/") {
+		return nil
+	}
+
+	u := &url.URL{
+		Scheme: "https",
+		Host:   "api.github.com",
+		Path:   path.Join("repos", strings.TrimPrefix(repoUrl, "https://github.com/")),
+	}
+
+	cachePath := filepath.Join(".cache", u.Path)
+	if stat, err := os.Stat(cachePath); err == nil {
+		if time.Since(stat.ModTime()) < githubCacheDuration {
+			if b, err := os.ReadFile(cachePath); err == nil {
+				l.Description = string(b)
+				return nil
+			}
+		}
+	}
+
+	if err := os.MkdirAll(filepath.Dir(cachePath), 0o755); err != nil {
+		return err
+	}
+
+	req, err := http.NewRequest(http.MethodGet, u.String(), nil)
+	if err != nil {
+		return err
+	}
+	if githubToken != "" {
+		req.Header.Set("Authorization", "Bearer "+githubToken)
+	}
+
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return nil
+	}
+	defer func() {
+		_, _ = io.Copy(io.Discard, resp.Body)
+		_ = resp.Body.Close()
+	}()
+
+	if resp.StatusCode != http.StatusOK {
+		body, _ := io.ReadAll(resp.Body)
+		return fmt.Errorf("%s %w: %s\n%s", u.String(), ErrUpstream, resp.Status, body)
+	}
+
+	var repo map[string]any
+	if err := json.NewDecoder(resp.Body).Decode(&repo); err != nil {
+		return err
+	}
+
+	l.Description = repo["description"].(string)
+	l.Description = gomoji.RemoveEmojis(l.Description)
+	l.Description = strings.TrimSpace(l.Description)
+	if !strings.HasSuffix(l.Description, ".") {
+		l.Description += "."
+	}
+	return os.WriteFile(cachePath, []byte(l.Description), 0o644)
 }
 
 type Logo struct {
@@ -38,7 +123,7 @@ type Logo struct {
 	Height int    `yaml:"height"`
 }
 
-func (l Link) Icon() any {
+func (l *Link) Icon() any {
 	switch {
 	case l.Logo != nil:
 		var buf strings.Builder
@@ -65,8 +150,24 @@ func (l Link) Icon() any {
 }
 
 func main() {
-	var links []Link
+	flag.StringVar(&githubToken, "github-token", "", "GitHub API token")
+	flag.DurationVar(&githubCacheDuration, "github-cache-duration", time.Hour, "GitHub API cache duration")
+	flag.Parse()
+
+	var links []*Link
 	if err := yaml.Unmarshal(configFile, &links); err != nil {
+		panic(err)
+	}
+
+	var group errgroup.Group
+	for _, link := range links {
+		if link.Description == "" {
+			group.Go(func() error {
+				return link.FetchGitHubDescription()
+			})
+		}
+	}
+	if err := group.Wait(); err != nil {
 		panic(err)
 	}
 

@@ -18,17 +18,17 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/mnemonic-ninja/465602c/src/assets/logo.svg" alt="Mnemonic Ninja icon" height=16px></td>
     <td><a href="https://mnemonic.ninja">Mnemonic Ninja</a></td>
-    <td>Convert between a number and its corresponding word to aid in memorization.</td>
+    <td>Memorize numbers more easily using the Mnemonic Major System.</td>
   </tr>
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/clevyr/yampl/97430d4/assets/icon.svg" alt="Yampl icon" height=15px></td>
     <td><a href="https://github.com/clevyr/yampl">Yampl</a></td>
-    <td>Yaml templating via line-comments.</td>
+    <td>Template YAML values based on line-comments.</td>
   </tr>
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/clevyr/kubedb/4f4b671/assets/icon.svg" alt="KubeDB icon" height=16px></td>
     <td><a href="https://github.com/clevyr/kubedb">KubeDB</a></td>
-    <td>Painlessly work with Kubernetes databases.</td>
+    <td>Painlessly work with databases in Kubernetes.</td>
   </tr>
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/ascii-movie/200b3d6/assets/icon.svg" alt="ASCII Movie icon" height=16px></td>
@@ -53,12 +53,12 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
   <tr>
     <td align=center>:key:</td>
     <td><a href="https://github.com/gabe565/pwgen-go">pwgen-go</a></td>
-    <td>A configurable command-line password generator.</td>
+    <td>Command line phassphrase generator written in Go.</td>
   </tr>
   <tr>
     <td align=center>:wrench:</td>
     <td><a href="https://github.com/gabe565/moreutils-go">moreutils-go</a></td>
-    <td>A rewrite of the popular moreutils package in Go.</td>
+    <td>Go rewrite of the moreutils command-line tools.</td>
   </tr>
   <tr>
     <td align=center>:page_with_curl:</td>
@@ -73,7 +73,7 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/domain-watch/349d6ef/assets/icon.svg" alt="Domain Watch icon" height=16px></td>
     <td><a href="https://github.com/gabe565/domain-watch">Domain Watch</a></td>
-    <td>Watch whois reports and notify when statuses change or expiration is incoming.</td>
+    <td>Get notified about domain changes as they happen.</td>
   </tr>
 </table>
 <!-- End projects -->
