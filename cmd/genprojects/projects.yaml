@@ -1,0 +1,68 @@
+- name: Bigger Projects
+  links:
+    - name: CastSponsorSkip
+      url: https://github.com/gabe565/CastSponsorSkip
+      description: Skip YouTube ads and sponsorships on all local Google Cast devices.
+      emoji: fast_forward
+
+    - name: Mnemonic Ninja
+      url: https://mnemonic.ninja
+      description: Convert between a number and its corresponding word to aid in memorization.
+      emoji: 1234
+
+    - name: Yampl
+      url: https://github.com/clevyr/yampl
+      description: Yaml templating via line-comments.
+      emoji: page_facing_up
+
+    - name: KubeDB
+      url: https://github.com/clevyr/kubedb
+      description: Painlessly work with Kubernetes databases.
+      emoji: card_file_box
+
+    - name: ASCII Movie
+      url: https://github.com/gabe565/ascii-movie
+      description: Star Wars SSH + Telnet server written in Go.
+      emoji: milky_way
+
+    - name: GoNES
+      url: https://github.com/gabe565/gones
+      description: An NES emulator written in Go.
+      emoji: joystick
+
+- name: Smaller Projects
+  links:
+    - name: Transsmute
+      url: https://github.com/gabe565/transsmute
+      description: Build RSS feeds for websites that don't provide them.
+      emoji: newspaper
+
+    - name: ESPHome configs
+      url: https://github.com/gabe565/esphome-configs
+      description: A collection of my personal ESPHome configs and packages.
+      emoji: floppy_disk
+
+    - name: pwgen-go
+      url: https://github.com/gabe565/pwgen-go
+      description: A configurable command-line password generator.
+      emoji: key
+
+    - name: moreutils-go
+      url: https://github.com/gabe565/moreutils-go
+      description: A rewrite of the popular moreutils package in Go.
+      emoji: wrench
+
+    - name: Changelog Generator
+      url: https://github.com/gabe565/changelog-generator
+      description: Generates a changelog from commits since the previous release.
+      emoji: page_with_curl
+
+    - name: Nightscout Menu Bar
+      url: https://github.com/gabe565/nightscout-menu-bar
+      description: Display live blood sugar data from Nightscout in your system menu bar.
+      emoji: drop_of_blood
+
+    - name: Domain Watch
+      url: https://github.com/gabe565/domain-watch
+      description: Watch whois reports and notify when statuses change or expiration is incoming.
+      emoji: bell

@@ -1,0 +1,7 @@
+{{- range . }}
+**{{ .Name }}**
+
+{{- range .Links }}
+- [{{ with .Emoji }}:{{ . }}: {{ end }}{{ .Name }}]({{ .URL }}): {{ .Description }}
+{{- end }}
+{{ end }}
