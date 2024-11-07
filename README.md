@@ -1,13 +1,10 @@
 ### Hi, I'm Gabe :wave:
 
-I'm a DevOps Engineer and Software Developer based in Oklahoma City, Oklahoma, USA.
+I'm a DevOps Engineer and Software Developer based in Oklahoma, USA.  
+I mainly build projects using Golang and Vue, but I have experience with [many languages and frameworks](https://gabecook.com/skills).  
+I build and deploy with containers, GitHub Actions, Kubernetes, and [GitOps](https://github.com/gabe565/home-ops).
 
-:sparkles: [See my portfolio site at gabecook.com](https://gabecook.com) :sparkles:
-
-### Bio
-
-- :gear: I love to code in Golang, Vue, Laravel, Python, sql, and [many more](https://gabecook.com/skills).
-- :cloud: I build and deploy with containers, CI/CD, Kubernetes, and GitOps.
+See my portfolio site at [**gabecook.com**](https://gabecook.com)
 
 ### Projects
 
