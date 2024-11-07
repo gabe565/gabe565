@@ -10,21 +10,79 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
 
 <!-- Begin projects -->
 **Bigger Projects**
-- :fast_forward: [CastSponsorSkip](https://github.com/gabe565/CastSponsorSkip): Skip YouTube ads and sponsorships on all local Google Cast devices.
-- :1234: [Mnemonic Ninja](https://mnemonic.ninja): Convert between a number and its corresponding word to aid in memorization.
-- :page_facing_up: [Yampl](https://github.com/clevyr/yampl): Yaml templating via line-comments.
-- :card_file_box: [KubeDB](https://github.com/clevyr/kubedb): Painlessly work with Kubernetes databases.
-- :milky_way: [ASCII Movie](https://github.com/gabe565/ascii-movie): Star Wars SSH &#43; Telnet server written in Go.
-- :joystick: [GoNES](https://github.com/gabe565/gones): An NES emulator written in Go.
+
+<table>
+  <tr>
+    <td align=center>:fast_forward:</td>
+    <td><a href="https://github.com/gabe565/CastSponsorSkip">CastSponsorSkip</a></td>
+    <td>Skip YouTube ads and sponsorships on all local Google Cast devices.</td>
+  </tr>
+  <tr>
+    <td align=center>:1234:</td>
+    <td><a href="https://mnemonic.ninja">Mnemonic Ninja</a></td>
+    <td>Convert between a number and its corresponding word to aid in memorization.</td>
+  </tr>
+  <tr>
+    <td align=center>:page_facing_up:</td>
+    <td><a href="https://github.com/clevyr/yampl">Yampl</a></td>
+    <td>Yaml templating via line-comments.</td>
+  </tr>
+  <tr>
+    <td align=center>:card_file_box:</td>
+    <td><a href="https://github.com/clevyr/kubedb">KubeDB</a></td>
+    <td>Painlessly work with Kubernetes databases.</td>
+  </tr>
+  <tr>
+    <td align=center>:milky_way:</td>
+    <td><a href="https://github.com/gabe565/ascii-movie">ASCII Movie</a></td>
+    <td>Star Wars SSH &#43; Telnet server written in Go.</td>
+  </tr>
+  <tr>
+    <td align=center>:joystick:</td>
+    <td><a href="https://github.com/gabe565/gones">GoNES</a></td>
+    <td>An NES emulator written in Go.</td>
+  </tr>
+</table>
 
 **Smaller Projects**
-- :newspaper: [Transsmute](https://github.com/gabe565/transsmute): Build RSS feeds for websites that don&#39;t provide them.
-- :floppy_disk: [ESPHome configs](https://github.com/gabe565/esphome-configs): A collection of my personal ESPHome configs and packages.
-- :key: [pwgen-go](https://github.com/gabe565/pwgen-go): A configurable command-line password generator.
-- :wrench: [moreutils-go](https://github.com/gabe565/moreutils-go): A rewrite of the popular moreutils package in Go.
-- :page_with_curl: [Changelog Generator](https://github.com/gabe565/changelog-generator): Generates a changelog from commits since the previous release.
-- :drop_of_blood: [Nightscout Menu Bar](https://github.com/gabe565/nightscout-menu-bar): Display live blood sugar data from Nightscout in your system menu bar.
-- :bell: [Domain Watch](https://github.com/gabe565/domain-watch): Watch whois reports and notify when statuses change or expiration is incoming.
+
+<table>
+  <tr>
+    <td align=center>:newspaper:</td>
+    <td><a href="https://github.com/gabe565/transsmute">Transsmute</a></td>
+    <td>Build RSS feeds for websites that don&#39;t provide them.</td>
+  </tr>
+  <tr>
+    <td align=center>:floppy_disk:</td>
+    <td><a href="https://github.com/gabe565/esphome-configs">ESPHome configs</a></td>
+    <td>A collection of my personal ESPHome configs and packages.</td>
+  </tr>
+  <tr>
+    <td align=center>:key:</td>
+    <td><a href="https://github.com/gabe565/pwgen-go">pwgen-go</a></td>
+    <td>A configurable command-line password generator.</td>
+  </tr>
+  <tr>
+    <td align=center>:wrench:</td>
+    <td><a href="https://github.com/gabe565/moreutils-go">moreutils-go</a></td>
+    <td>A rewrite of the popular moreutils package in Go.</td>
+  </tr>
+  <tr>
+    <td align=center>:page_with_curl:</td>
+    <td><a href="https://github.com/gabe565/changelog-generator">Changelog Generator</a></td>
+    <td>Generates a changelog from commits since the previous release.</td>
+  </tr>
+  <tr>
+    <td align=center>:drop_of_blood:</td>
+    <td><a href="https://github.com/gabe565/nightscout-menu-bar">Nightscout Menu Bar</a></td>
+    <td>Display live blood sugar data from Nightscout in your system menu bar.</td>
+  </tr>
+  <tr>
+    <td align=center>:bell:</td>
+    <td><a href="https://github.com/gabe565/domain-watch">Domain Watch</a></td>
+    <td>Watch whois reports and notify when statuses change or expiration is incoming.</td>
+  </tr>
+</table>
 <!-- End projects -->
 
 ### Stats

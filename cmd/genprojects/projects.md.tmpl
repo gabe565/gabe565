@@ -1,7 +1,13 @@
 {{- range . }}
 **{{ .Name }}**
 
+<table>
 {{- range .Links }}
-- {{ with .Emoji }}:{{ . }}: {{ end }}[{{ .Name }}]({{ .URL }}): {{ .Description }}
+  <tr>
+    <td align=center>{{ with .Emoji }}:{{ . }}:{{ end }}</td>
+    <td><a href="{{ .URL }}">{{ .Name }}</a></td>
+    <td>{{ .Description }}</td>
+  </tr>
 {{- end }}
+</table>
 {{ end }}
