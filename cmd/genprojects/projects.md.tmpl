@@ -2,6 +2,6 @@
 **{{ .Name }}**
 
 {{- range .Links }}
-- [{{ with .Emoji }}:{{ . }}: {{ end }}{{ .Name }}]({{ .URL }}): {{ .Description }}
+- {{ with .Emoji }}:{{ . }}: {{ end }}[{{ .Name }}]({{ .URL }}): {{ .Description }}
 {{- end }}
 {{ end }}

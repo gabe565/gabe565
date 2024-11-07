@@ -10,21 +10,21 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
 
 <!-- Begin projects -->
 **Bigger Projects**
-- [:fast_forward: CastSponsorSkip](https://github.com/gabe565/CastSponsorSkip): Skip YouTube ads and sponsorships on all local Google Cast devices.
-- [:1234: Mnemonic Ninja](https://mnemonic.ninja): Convert between a number and its corresponding word to aid in memorization.
-- [:page_facing_up: Yampl](https://github.com/clevyr/yampl): Yaml templating via line-comments.
-- [:card_file_box: KubeDB](https://github.com/clevyr/kubedb): Painlessly work with Kubernetes databases.
-- [:milky_way: ASCII Movie](https://github.com/gabe565/ascii-movie): Star Wars SSH &#43; Telnet server written in Go.
-- [:joystick: GoNES](https://github.com/gabe565/gones): An NES emulator written in Go.
+- :fast_forward: [CastSponsorSkip](https://github.com/gabe565/CastSponsorSkip): Skip YouTube ads and sponsorships on all local Google Cast devices.
+- :1234: [Mnemonic Ninja](https://mnemonic.ninja): Convert between a number and its corresponding word to aid in memorization.
+- :page_facing_up: [Yampl](https://github.com/clevyr/yampl): Yaml templating via line-comments.
+- :card_file_box: [KubeDB](https://github.com/clevyr/kubedb): Painlessly work with Kubernetes databases.
+- :milky_way: [ASCII Movie](https://github.com/gabe565/ascii-movie): Star Wars SSH &#43; Telnet server written in Go.
+- :joystick: [GoNES](https://github.com/gabe565/gones): An NES emulator written in Go.
 
 **Smaller Projects**
-- [:newspaper: Transsmute](https://github.com/gabe565/transsmute): Build RSS feeds for websites that don&#39;t provide them.
-- [:floppy_disk: ESPHome configs](https://github.com/gabe565/esphome-configs): A collection of my personal ESPHome configs and packages.
-- [:key: pwgen-go](https://github.com/gabe565/pwgen-go): A configurable command-line password generator.
-- [:wrench: moreutils-go](https://github.com/gabe565/moreutils-go): A rewrite of the popular moreutils package in Go.
-- [:page_with_curl: Changelog Generator](https://github.com/gabe565/changelog-generator): Generates a changelog from commits since the previous release.
-- [:drop_of_blood: Nightscout Menu Bar](https://github.com/gabe565/nightscout-menu-bar): Display live blood sugar data from Nightscout in your system menu bar.
-- [:bell: Domain Watch](https://github.com/gabe565/domain-watch): Watch whois reports and notify when statuses change or expiration is incoming.
+- :newspaper: [Transsmute](https://github.com/gabe565/transsmute): Build RSS feeds for websites that don&#39;t provide them.
+- :floppy_disk: [ESPHome configs](https://github.com/gabe565/esphome-configs): A collection of my personal ESPHome configs and packages.
+- :key: [pwgen-go](https://github.com/gabe565/pwgen-go): A configurable command-line password generator.
+- :wrench: [moreutils-go](https://github.com/gabe565/moreutils-go): A rewrite of the popular moreutils package in Go.
+- :page_with_curl: [Changelog Generator](https://github.com/gabe565/changelog-generator): Generates a changelog from commits since the previous release.
+- :drop_of_blood: [Nightscout Menu Bar](https://github.com/gabe565/nightscout-menu-bar): Display live blood sugar data from Nightscout in your system menu bar.
+- :bell: [Domain Watch](https://github.com/gabe565/domain-watch): Watch whois reports and notify when statuses change or expiration is incoming.
 <!-- End projects -->
 
 ### Stats
