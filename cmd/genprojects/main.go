@@ -5,7 +5,6 @@ import (
 	_ "embed"
 	"encoding/json"
 	"errors"
-	"flag"
 	"fmt"
 	"html"
 	"html/template"
@@ -21,6 +20,7 @@ import (
 
 	"github.com/forPelevin/gomoji"
 	"github.com/goccy/go-yaml"
+	"github.com/spf13/pflag"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -30,13 +30,11 @@ const (
 	readmePath = "README.md"
 )
 
-//go:embed projects.yaml
-var configFile []byte
-
 //go:embed projects.md.tmpl
 var templateFile string
 
 var (
+	configFile          string
 	githubToken         string
 	githubCacheDuration time.Duration
 )
@@ -150,12 +148,22 @@ func (l *Link) Icon() any {
 }
 
 func main() {
-	flag.StringVar(&githubToken, "github-token", "", "GitHub API token")
-	flag.DurationVar(&githubCacheDuration, "github-cache-duration", time.Hour, "GitHub API cache duration")
-	flag.Parse()
+	fs := pflag.NewFlagSet("genprojects", pflag.ExitOnError)
+	fs.StringVarP(&configFile, "config", "c", "projects.yaml", "path to config file")
+	fs.StringVar(&githubToken, "github-token", "", "GitHub API token")
+	fs.DurationVar(&githubCacheDuration, "github-cache-duration", time.Hour, "GitHub API cache duration")
+	if err := fs.Parse(os.Args); err != nil {
+		panic(err)
+	}
+
+	f, err := os.Open(configFile)
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
 
 	var links []*Link
-	if err := yaml.Unmarshal(configFile, &links); err != nil {
+	if err := yaml.NewDecoder(f).Decode(&links); err != nil {
 		panic(err)
 	}
 
