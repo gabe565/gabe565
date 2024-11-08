@@ -175,6 +175,8 @@ func main() {
 		panic(err)
 	}
 
+	_ = f.Close()
+
 	var group errgroup.Group
 	for _, link := range links {
 		if link.Description == "" {
