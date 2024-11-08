@@ -34,10 +34,18 @@ const (
 var templateFile string
 
 var (
-	configFile          string
+	configFile          = "projects.yaml"
 	githubToken         string
-	githubCacheDuration time.Duration
+	githubCacheDuration = time.Hour
 )
+
+func init() {
+	if env := os.Getenv("GH_TOKEN"); env != "" {
+		githubToken = env
+	} else if env := os.Getenv("GITHUB_TOKEN"); env != "" {
+		githubToken = env
+	}
+}
 
 type Link struct {
 	Name        string `yaml:"name"`
@@ -149,9 +157,9 @@ func (l *Link) Icon() any {
 
 func main() {
 	fs := pflag.NewFlagSet("genprojects", pflag.ExitOnError)
-	fs.StringVarP(&configFile, "config", "c", "projects.yaml", "path to config file")
-	fs.StringVar(&githubToken, "github-token", "", "GitHub API token")
-	fs.DurationVar(&githubCacheDuration, "github-cache-duration", time.Hour, "GitHub API cache duration")
+	fs.StringVarP(&configFile, "config", "c", configFile, "path to config file")
+	fs.StringVar(&githubToken, "github-token", githubToken, "GitHub API token")
+	fs.DurationVar(&githubCacheDuration, "github-cache-duration", githubCacheDuration, "GitHub API cache duration")
 	if err := fs.Parse(os.Args); err != nil {
 		panic(err)
 	}
