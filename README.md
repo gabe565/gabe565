@@ -80,5 +80,5 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
 
 ### Stats
 
-| [![Gabe Cook's GitHub stats](https://api.gabecook.com/api/github-stats/stats)](https://github.com/anuraghazra/github-readme-stats) | [![Most Used Languages](https://api.gabecook.com/api/github-stats/top-langs)](https://github.com/anuraghazra/github-readme-stats) |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://api.gabecook.com/api/github-stats/stats" alt="Gabe Cook's GitHub stats"></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://api.gabecook.com/api/github-stats/top-langs" alt="Most Used Languages" align="top"></a>
