@@ -115,9 +115,6 @@ func (l *Link) FetchGitHubDescription() error {
 
 	l.Description = repo["description"].(string)
 	l.Description = strings.TrimSpace(l.Description)
-	if !strings.HasSuffix(l.Description, ".") {
-		l.Description += "."
-	}
 	return os.WriteFile(cachePath, []byte(l.Description), 0o644)
 }
 
