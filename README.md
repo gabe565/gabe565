@@ -13,7 +13,7 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/CastSponsorSkip/0c8c4d4f/assets/icon.svg" alt="CastSponsorSkip icon" height=16px></td>
     <td><a href="https://github.com/gabe565/CastSponsorSkip">CastSponsorSkip</a></td>
-    <td>Skip YouTube ads and sponsorships on all local Google Cast devices.</td>
+    <td>Skip YouTube sponsorships (and sometimes ads) on all local Google Cast devices.</td>
   </tr>
   <tr>
     <td align=center><img src="https://raw.githubusercontent.com/gabe565/mnemonic-ninja/465602c/src/assets/logo.svg" alt="Mnemonic Ninja icon" height=16px></td>
@@ -53,7 +53,7 @@ See my portfolio site at [**gabecook.com**](https://gabecook.com)
   <tr>
     <td align=center>:key:</td>
     <td><a href="https://github.com/gabe565/pwgen-go">pwgen-go</a></td>
-    <td>Command line phassphrase generator written in Go.</td>
+    <td>Command line password and passphrase generator written in Go.</td>
   </tr>
   <tr>
     <td align=center>:wrench:</td>
