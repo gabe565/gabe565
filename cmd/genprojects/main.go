@@ -18,7 +18,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/forPelevin/gomoji"
 	"github.com/goccy/go-yaml"
 	"github.com/spf13/pflag"
 	"golang.org/x/sync/errgroup"
@@ -115,7 +114,6 @@ func (l *Link) FetchGitHubDescription() error {
 	}
 
 	l.Description = repo["description"].(string)
-	l.Description = gomoji.RemoveEmojis(l.Description)
 	l.Description = strings.TrimSpace(l.Description)
 	if !strings.HasSuffix(l.Description, ".") {
 		l.Description += "."
